@@ -1,0 +1,16 @@
+body{
+    margin: 15px;
+    text-align: center;
+    background-color: teal;
+    background-image: "./icons/2.jpg";
+}
+input{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+button{
+    margin-bottom: 10px;
+}
+.LinkGit{
+    color: #000;
+}

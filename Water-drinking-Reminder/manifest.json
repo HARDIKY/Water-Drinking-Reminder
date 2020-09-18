@@ -1,0 +1,34 @@
+{
+    "manifest_version" : 2,
+    "version" : "1.0",
+    "name": "Please Drink Your Water",
+    "description": "A basic Water Drinking reminder Extension Made by Hardik",
+    "icons":{
+        "128" : "./icons/1.png",
+        "48"  : "./icons/2.png",
+        "32"  : "./icons/3.png",
+        "16"  : "./icons/4.png"
+},
+
+    "browser_action":
+    {
+       
+        "default_popup" : "index.html",
+        "default_title" : "Your Water Buddy"
+
+    },
+    "background":{
+        "scripts":["background.js"],
+        "persistent" : false
+    },
+    "permissions":[
+        "alarms",
+        "notifications",
+        "storage",
+        "contextMenus"
+    ],
+      "omnibox": { "keyword" : "hardik"}
+
+    }
+
+    
